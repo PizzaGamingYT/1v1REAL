@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <base href="https://cdn.jsdelivr.net/gh/PizzaGamingYT/1v1REAL">
+    <base href="https://cdn.jsdelivr.net/gh/PizzaGamingYT/1v1REAL/">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>1v1.lol on Nol'sGames</title>
     <link rel="icon" href="https://nolsgames.xyz/favicon.ico">
-    <link rel="stylesheet" href="https://onecloudcdn.site/style/style.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         html,
         body {
@@ -38,9 +38,9 @@
     <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-remote-config.js"></script>
-    <script src="https://onecloudcdn.site/server-mock.js"></script>
-    <script src="https://onecloudcdn.site/UnityLoader.js"></script>
-    <script src="https://onecloudcdn.site/UnityProgress.js"></script>
+    <script src="server-mock.js"></script>
+    <script src="UnityLoader.js"></script>
+    <script src="UnityProgress.js"></script>
 </head>
 
 <body>
@@ -51,7 +51,7 @@
     <script src="https://onecloudcdn.site/login.js"></script>
     <script src="https://onecloudcdn.site/firebase-config.js"></script>
     <script>
-        var gameInstance = UnityLoader.instantiate("gameContainer", "https://onecloudcdn.site/build.json", {
+        var gameInstance = UnityLoader.instantiate("gameContainer", "build.json", {
             onProgress: UnityProgress,
             Module: {
                 onRuntimeInitialized: function() {
