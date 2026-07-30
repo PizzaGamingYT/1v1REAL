@@ -1,0 +1,23 @@
+{
+    "companyName": "JustPlay.LOL",
+    "productName": "1v1.LOL",
+    "productVersion": "4.23",
+    "dataUrl": "WebGL.data.de7ba505.unityweb",
+    "wasmCodeUrl": "WebGL.wasm.code.de7ba505.unityweb",
+    "wasmFrameworkUrl": "WebGL.wasm.framework.de7ba505.unityweb",
+    "graphicsAPI": [
+        "WebGL 2.0",
+        "WebGL 1.0"
+    ],
+    "webglContextAttributes": {
+        "preserveDrawingBuffer": false
+    },
+    "splashScreenStyle": "Dark",
+    "backgroundColor": "#000000",
+    "cacheControl": {
+        "default": "must-revalidate"
+    },
+    "developmentBuild": false,
+    "multithreading": false,
+    "unityVersion": "2019.4.33f1"
+}
